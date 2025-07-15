@@ -99,6 +99,26 @@
             calc(100% - 10px) 0
         );
     }
+    .wheel{
+        position: absolute;
+        top: 755px;
+        width: 130px;
+        height: 130px;
+        background-color: #000;
+        clip-path: circle(50%);
+    }
+    .rear-wheel
+    {
+        left: 280px;
+    }
+    .middle-wheel
+    {
+        left: 455px;
+    }
+    .front-wheel
+    {
+        left: 630px;
+    }
 </style>
 <body>
     <div class="red-flag"></div>
@@ -109,4 +129,7 @@
     <div class="hood-edge"></div>
     <div class="bodywork"></div>
     <div class="chassis"></div>
+    <div class="rear-wheel wheel"></div>
+    <div class="middle-wheel wheel"></div>
+    <div class="front-wheel wheel"></div>
 </body>
