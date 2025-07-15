@@ -79,6 +79,23 @@
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
     }
+    .chassis {
+        position: absolute;
+        top: 715px;
+        left: 270px;
+        height: 110px;
+        width: 490px;
+        background-color: #000;
+        clip-path: polygon(
+            10px 0px,
+            0px 10px,
+            0px 40px,
+            70px 100%,
+            420px 100%,
+            100% 40px,
+            100% 10px,
+            calc(100% - 10px) 0
+        );
     }
 </style>
 <body>
@@ -89,4 +106,5 @@
     <div class="hood"></div>
     <div class="hood-edge"></div>
     <div class="bodywork"></div>
+    <div class="chassis"></div>
 </body>
